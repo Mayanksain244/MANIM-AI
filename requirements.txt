@@ -1,0 +1,19 @@
+# Core Machine Learning and Hugging Face Libraries
+transformers
+datasets
+accelerate
+torch
+
+# Manim for video generation
+manim
+
+# Data handling and utilities
+pandas
+numpy
+
+# For handling environment variables (like API keys)
+python-dotenv
+
+# For experimentation and notebooks
+jupyter
+notebook
