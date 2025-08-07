@@ -1,3 +1,6 @@
+# Model api free
+Groq
+
 # Core Machine Learning and Hugging Face Libraries
 transformers
 datasets
@@ -11,9 +14,16 @@ manim
 pandas
 numpy
 
+# Agent based
+langgraph
+
+# Code checking
+astunparse
+regex
+
 # For handling environment variables (like API keys)
 python-dotenv
 
 # For experimentation and notebooks
-jupyter
-notebook
+# jupyter
+# notebook
