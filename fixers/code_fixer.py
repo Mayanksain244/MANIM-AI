@@ -13,7 +13,9 @@ Errors detected:
 {error_message}
 
 Please fix the code while maintaining all the original functionality. 
-Return ONLY the corrected code with no additional explanation."""
+Return ONLY the corrected code with no additional explanation.
+NO PREAMBLE
+without '''python at start and ''' at the end"""
 
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",

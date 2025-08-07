@@ -2,6 +2,10 @@
 data/
 models/
 
+media/
+outputs/
+
+
 # Ignore Python specific files
 __pycache__/
 *.pyc
