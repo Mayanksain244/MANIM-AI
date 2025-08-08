@@ -27,3 +27,8 @@ python-dotenv
 # For experimentation and notebooks
 # jupyter
 # notebook
+
+# UI
+streamlit
+streamlit-extras
+Pillow
