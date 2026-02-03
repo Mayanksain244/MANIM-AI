@@ -56,7 +56,11 @@ Animate an architecture diagram showing User Input to Controller to Groq LLM (ge
 ```
 **Generated Output**
 A rendered Manim animation video (`.mp4`) following the prompt.
-[![Demo Video](readme_asset/thumbnail.png)](readme_asset/ArchitectureDiagram.mp4)
+[![Demo Video](readme_asset/thumbnail.png)](readm
+
+https://github.com/user-attachments/assets/584fa05d-ef27-4898-9770-9777af8ca5a1
+
+e_asset/ArchitectureDiagram.mp4)
 
 ## 🛠️ Installation
 
