@@ -23,6 +23,7 @@ class Prompt2Anim:
         
         # Step 2: Verify code
         verification_result = verify_code(generated_code)
+        print(f'Code varification sucessuful')
         if not verification_result["is_valid"]:
             print(f"Code verification failed: {verification_result['errors']}")
             
@@ -41,6 +42,7 @@ class Prompt2Anim:
             
         
         # Step 4: Execute the code
+        print(f'executing manim code')
         video_path = execute_manim_code(generated_code)
         return video_path
 

@@ -23,16 +23,18 @@ def execute_manim_code(code: str) -> Optional[str]:
     # Write the code to a temporary file
     with open(temp_file, "w", encoding="utf-8") as f:
         f.write(code)
+        print(f'code written succesufully')
     
     try:
         # Extract the scene class name from the code
         scene_class = extract_scene_class(code)
+        print(f'scene name extracted')
         if not scene_class:
             raise ValueError("No valid Scene class found in the generated code")
         
         # Get Python executable from the virtual environment
         python_exec = sys.executable
-        
+        print(f'got python executable')
         # Build the command to run Manim through Python with PYTHONHASHSEED=0
         command = [
             python_exec,
