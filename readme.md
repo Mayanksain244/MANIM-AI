@@ -8,7 +8,7 @@
 
 The system follows a **Generation → Verification → Execution** pipeline to ensure code reliability and safe rendering.
 
-![Architecture Diagram](readme_asset\architecture.png)
+![Architecture Diagram](readme_asset/architecture.png)
 
 ### Pipeline Overview
 
